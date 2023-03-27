@@ -1,7 +1,23 @@
 {
   "root": true,
-  "extends": ["trybe-backend"],
+  "extends": [
+    "trybe-backend"
+  ],
   "rules": {
-    "sonarjs/no-duplicate-string": ["error", 5]
-  }
+    "sonarjs/no-duplicate-string": [
+      "error",
+      5
+    ],
+    "indent": "error"
+  },
+  "overrides": [
+    {
+      "files": [
+        "src/models/*.js"
+      ],
+      "rules": {
+        "max-lines-per-function": "off"
+      }
+    }
+  ]
 }
