@@ -104,7 +104,7 @@ Crie o model de `Surgeries`.
 
 ### 🚀 Exercício 4
 
-Crie o model de `Patient_surgeries`.
+Crie o model de `PatientSurgeries`.
 
 ### 🚀 Exercício 5
 
