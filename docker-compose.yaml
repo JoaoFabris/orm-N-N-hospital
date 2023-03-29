@@ -4,7 +4,7 @@ services:
   mysql:
     image: mysql:8.0.32
     environment:
-      - MYSQL_ROOT_PASSWORD
+      MYSQL_ROOT_PASSWORD: password
     ports:
       - 3306:3306
 
@@ -15,11 +15,11 @@ services:
     ports:
       - 3001:3001
     environment:
-      - DB_HOST
-      - DB_NAME
-      - DB_USER
-      - DB_PASSWORD
-      - SERVER_PORT
+      DB_HOST: mysql
+      DB_NAME: hospital_control
+      DB_USER: root
+      DB_PASSWORD: password
+      PORT: 3001
     volumes:
       - ./:/usr/app
     user: node
