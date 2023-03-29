@@ -1,4 +1,3 @@
-/__tests__
 **/migrations/
 **/seeders/
-src/models/index.js
+**/models/
