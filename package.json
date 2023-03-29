@@ -1,7 +1,7 @@
 {
   "name": "exercise-sequelize-associations",
   "version": "1.0.0",
-  "description": "Exercício do dia 24.3 - ORM - Associations N:N e Transactions",
+  "description": "Exercício do dia 6.3 - ORM - Associations N:N e Transactions",
   "main": "src/server.js",
   "scripts": {
     "start": "node .",
