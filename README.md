@@ -1,4 +1,4 @@
-# Boas-vindas ao repositório do exercício do dia `24.3 - ORM - Associations N:N e Transactions`
+# Boas-vindas ao repositório do exercício do dia `6.3 - ORM - Associations N:N e Transactions`
 
 Esse é o exercício do conteúdo do dia `ORM - Associations N:N e Transactions`. Esse exercício vai consolidar as seguintes habilidades:
 
