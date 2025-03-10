@@ -1,3 +1,5 @@
+require('dotenv').config(); // Carregar variáveis de ambiente
+
 module.exports = {
   development: {
     username: process.env.DB_USER,
