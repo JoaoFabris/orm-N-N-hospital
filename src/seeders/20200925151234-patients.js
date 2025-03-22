@@ -7,22 +7,23 @@ module.exports = {
       [
         {
           fullname: 'Alberto Dos Santos',
-          plan_id: 1,
-        },        {
+          plan_id: 1,  // Plano ID 1
+        },        
+        {
           fullname: 'Maria Silveira Rodrigues',
-          plan_id: 3,
+          plan_id: 2,  // Plano ID 2
         },
         {
           fullname: 'Osvaldo de Andrade',
-          plan_id: 3,
+          plan_id: 2,  // Plano ID 2
         },
         {
           fullname: 'Cristiano Ronaldo Messi',
-          plan_id: 2,
+          plan_id: 4,  // Plano ID 4
         },
         {
           fullname: 'Luis Carlos Suarez',
-          plan_id: 3,
+          plan_id: 3,  // Plano ID 3
         },
       ],
       {}
